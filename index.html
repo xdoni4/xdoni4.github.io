@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>xdoni4 — Home</title>
+  <meta name="description" content="Welcome to my site. I'm Daniil Ignatyev." />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--text:#e6eef8;--muted:#9fb0c9;--accent:#6ee7b7}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#071029 0%,#071427 60%);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+    .wrap{max-width:980px;width:100%}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+    .avatar{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7dd3fc);flex:0 0 72px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#012;box-shadow:0 6px 18px rgba(2,6,23,.6)}
+    h1{margin:0;font-size:1.8rem}
+    p.lead{color:var(--muted);margin:6px 0 20px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .card{background:rgba(255,255,255,.03);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,.6)}
+    .foot{margin-top:22px;color:var(--muted);font-size:.95rem}
+    a.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,#10b981,#34d399);color:#012;font-weight:600;text-decoration:none}
+    @media (max-width:520px){header{flex-direction:row-reverse;justify-content:space-between}.avatar{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <h1>xdoni4</h1>
+        <p class="lead">ML researcher.</p>
+        <p><a class="btn" href="#projects">See projects</a></p>
+      </div>
+      <div class="avatar">YN</div>
+    </header>
+
+    <section id="projects" aria-label="Projects">
+<!--       <div class="grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p class="muted">Short description of project one. Tech: HTML, CSS, JS.</p>
+          <p><a href="#" style="color:var(--accent)">View →</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Project Two</h3>
+          <p class="muted">Short description of project two. Tech: Python, Flask.</p>
+          <p><a href="#" style="color:var(--accent)">View →</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Blog / Notes</h3>
+          <p class="muted">Write short posts here. Link to /blog or a collection of markdown pages.</p>
+          <p><a href="#" style="color:var(--accent)">Read →</a></p>
+        </article>
+      </div> -->
+    </section>
+
+    <footer class="foot">
+      <p>Contact: <a href="mailto:dannnyign@gmail.com" style="color:var(--accent)">dannnyign@gmail.com</a></p>
+      <p>Hosted on GitHub Pages — source: <code>xdoni4.github.io</code></p>
+    </footer>
+  </main>
+</body>
+</html>
